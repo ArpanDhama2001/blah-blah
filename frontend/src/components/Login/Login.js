@@ -11,6 +11,7 @@ const Login = () => {
       maxWidth="900px"
       alignItems="center"
       justifyContent="space-between"
+      // transform="translate(0,20%)"
     >
       <Leftside />
       <Divider orientation="vertical" />

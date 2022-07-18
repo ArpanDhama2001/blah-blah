@@ -10,7 +10,7 @@ const Leftside = () => {
       <Image
         height={{ base: "none", md: "480px", lg: "500px" }}
         objectFit="cover"
-        src={require("../../images/bg1.png")}
+        src={require("../../images/bg3.png")}
         alt="At work illustration"
       />
     </Box>

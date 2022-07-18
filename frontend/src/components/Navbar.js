@@ -12,7 +12,14 @@ import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <Flex px="7%" height="60px" alignItems="center">
+    <Flex
+      px="7%"
+      height="60px"
+      alignItems="center"
+      // boxShadow="0px 0px 5px rgba(0,0,0,0.1)"
+      mb="10px"
+      position="static"
+    >
       <Heading as="h2" size="lg">
         Blah-Blah
       </Heading>
